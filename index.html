@@ -1,0 +1,866 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitech Infra Private Limited</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/public/img/favicon.png">
+
+    <!-- Google font Poppins  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- comment by AHMED --> 
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/fira-sans" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/exo-4" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter&family=Montserrat&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+        integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- <link rel="stylesheet" href="https://digitechinfra.com/public/css/style.css"> -->
+            <link rel="stylesheet" href="./style/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+        integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Slick Slider  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+</head>
+
+<body>
+
+    <!-- navbar-start -->
+    <div class="container mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparents">
+            <div class="container-fluid">
+                <a class="navbar-brand me-0" href="/"><img src="https://digitechinfra.com/public/img/digitech-infra.png" class="img-fluid"
+                        width="180" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-md-5 px-md-5">
+                        <li class="nav-item ">
+                            <a class="nav-link size" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link size" href="https://www.digitechinfra.com/about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link size" href="https://www.digitechinfra.com/services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link size" href="https://www.digitechinfra.com/product">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link size" href="https://www.digitechinfra.com/gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link size" href="https://www.digitechinfra.com/client">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link size" href="https://www.digitechinfra.com/careers">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link size" href="https://www.digitechinfra.com/contact">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <div class=" me-2">
+
+                        <img src="https://digitechinfra.com/public/img/call_phone.png" class="img-fluid tm-animation-floating2" width="29"
+                            alt="">
+
+                    </div>
+
+
+
+                    <div class="m-0 p-0 me-md-5">
+                        <p class="service-para mb-0 pb-0 pt-3">&nbsp; Call Any Time</p>
+                        <p class="service-bold mt-0">+1 443 7764789</p>
+                    </div>
+
+
+                    <div class="align-items-center">
+                        <a href="https://www.facebook.com/DigitechInfra"  target="_blank"><img src="public/img/facebook-blue.png"
+                                class="img-fluid me-md-3" alt=""></a>
+                        <a href="https://www.instagram.com/digitechinfra?igsh=ZGdmNmhxamk0d2J6" target="_blank"><img src="https://digitechinfra.com/public/img/instagram-b.png" class="img-fluid me-md-3 mt-1"
+                                alt=""></a>
+                        <a href="https://www.linkedin.com/company/digitech-infra-associates"  target="_blank"><img
+                                src="https://digitechinfra.com/public/img/linkedin-in-blue.png" class="img-fluid me-md-3" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- navbar end -->
+     <!-- header Section Str -->
+             <section>
+              <div class="container">
+                <div class="row m-auto">
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto">
+                    <div class="alingment-div">
+                        <h2 class="m-auto lh-sm  heading-haad pb-3" style="color: #2B3690;">
+                          Trainign to increase learning skills
+                        </h2>
+                        <p class=" m-auto lh-sm para fs-4">
+                          Real-World Professional Training: This is not your typical academic course or classroom experience.
+                        </p>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-12 mt-4">
+                <div class="form px-4 py-2">
+                  <div class="top-div">
+                    <p class="top-div-text fs-2 text-center text-white">Course Registration</p>
+                  </div>
+                  <form action="">
+                    <input
+                      type="text"
+                      placeholder="Full Name *"
+                      class="input-placeholder text-white w-100 "
+                    />
+                     <input
+                      type="text"
+                      placeholder="Father Name *"
+                      class="input-placeholder w-100 "
+                    />
+                    <input
+                      type="email"
+                      placeholder="Email *"
+                      class="input-placeholder w-100 "
+                    />
+                    <input
+                      type="number"
+                      placeholder="Phone Number *"
+                      class="input-placeholder w-100 "
+                    />
+                    <div class="input-group mb-3">
+                    <!-- <label class="input-group-text" for="inputGroupSelect01">Options</label> -->
+                    <select class="form-select rounded-0 bg-transparent mt-4 border-bottom" id="inputGroupSelect01">
+                      <option selected >Select Course</option>
+                      <option value="1" class="text-div">Web Developemtn</option>
+                      <option value="2" class="text-div">Flutter App Development Course</option>
+                      <option value="3" class="text-div">Graphic Designing Advance Course</option>
+                      <option value="4" class="text-div">Digital Marketing & SEO Course</option>
+                      <option value="5" class="text-div">Business Development Course</option>
+                    </select>
+                  </div>
+                    <p class="text-white pt-4">CV (upload your file)</p>
+                   <input type="file" class="file  mt-1 border-0 rounded-4 text-white" />
+                  </form>
+                  <div class="d-grid gap-2 col-12 mx-auto my-4">
+                <button class="btn  fs-2 fw-bold btnnn-color " type="button">Register</button>
+                </div>
+                </div>
+              </div>
+                </div>
+              </div>
+             </section>
+             <!-- header Section End -->
+           <!-- Marketing Strategies Section str -->
+        <section class="mar-top">
+            <div class="container-fluid py-5 my-5" style="background-color: #F3F9FF;">
+                <div class="container mt-5">
+                    <div class="text-center">
+                        <h2 class="m-auto lh-sm heading " style="color: #2B3690;">
+                            IT Training Courses We Are Offering
+                          </h2>
+                          <p class="m-auto lh-sm w-75 para py-3">
+                           Real-World Professional Training: This is not your typical
+                            academic course or classroom experience. Our program is designed
+                             to equip you with hands-on, industry-ready skills that employers demand.
+                          </p>
+                    </div>
+                    
+                    <div class="row py-5 responsive">
+                      <div class="col-sm-12 col-md-6 col-lg col-12">
+                        <div class="rounded bg-white px-3 py-4 pb-4 my-3 mx-3 text-center">
+                          <div>
+                            <img src="./img/Mobile App Development.png" alt="" class="img-fluid height-div m-auto">
+                          </div>
+                          <h2 class="m-auto lh-base fw-bold py-2 card-head">
+                            ⁠Mobile App Development
+                          </h2>
+                          <p class="m-auto lh-sm pb-4 card-text">
+                            SEO-optimized content that resonates with your audience.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg col-12">
+                        <div class="rounded bg-white px-3 py-4 pb-5 my-3 mx-3 text-center">
+                         <div>
+                             <img src="./img/Website Development.png" alt="" class="img-fluid height-div m-auto" >
+                         </div>
+                          <h2 class="m-auto lh-base fw-bold py-3 card-head">
+                            Website Development
+                          </h2>
+                          <p class="m-auto lh-sm para pb-md-4 pb-lg-4 card-text">
+                            Keyword research and SEO to boost your visibility.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg col-12">
+                        <div class="rounded bg-white px-3 py-4 pb-5 my-3 mx-3 text-center">
+                          <div class="height-div">
+                            <img src="./img/Content Marketing.png" alt="" class="img-fluid m-auto">
+                          </div>
+                          <h2 class="m-auto lh-base fw-bold py-3 card-head">
+                            Content Marketing
+                          </h2>
+                          <p class="m-auto lh-sm para pb-4 mb-2 card-text">
+                            Keyword research and SEO to boost your visibility.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg col-12">
+                        <div class="rounded bg-white px-3 py-4 pb-5 my-3 mx-3 text-center">
+                          <div>
+                            <img src="./img/UIUX Design.png" alt="" class="img-fluid height-div m-auto">
+                          </div>
+                          <h2 class="m-auto lh-base fw-bold py-3 card-head">
+                            UI/UX Design
+                          </h2>
+                          <p class="m-auto lh-sm para pb-4 mb-2 card-text">
+                            Engaging your audience across the right platforms.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg col-12">
+                        <div class="rounded bg-white px-3 py-4 pb-4 my-3 mx-3 text-center">
+                          <div>
+                            <img src="./img/Search Engine Optimizattion.png" alt="" class="img-fluid height-div m-auto">
+                          </div>
+                          <h2 class="m-auto lh-base fw-bold py-3 card-head">
+                            Search Engine Optimizattion
+                          </h2>
+                          <p class="m-auto lh-sm para pb-3 card-text">
+                            Driving conversions through paid ads and email marketing.
+                          </p>
+                        </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg col-12 ">
+                        <div class="rounded bg-white px-3 py-4 pb-4 my-3 mx-3 text-center">
+                          <div>
+                            <img src="./img/Social Media Management.png" alt="" class="img-fluid height-div m-auto">
+                          </div>
+                          <h2 class="m-auto lh-base fw-bold py-3 card-head">
+                            Social Media Management
+                          </h2>
+                          <p class="m-auto lh-sm para card-text">
+                            Plan, create, schedule, analyze, engage, optimize, advertise, brand, monitor, and strategize.
+                          </p>
+                        </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg col-12">
+                        <div class="rounded bg-white px-3 py-4 pb-5 my-3 mx-3 text-center">
+                          <div>
+                            <img src="./img/Video Editing.png" alt="" class="img-fluid height-div m-auto">
+                          </div>
+                          <h2 class="m-auto lh-base fw-bold py-3 card-head">
+                            Video Editing
+                          </h2>
+                          <p class="m-auto lh-sm para card-text">
+                            Cut, enhance, color grade, transition, overlay, audio sync, effects, render, export, storytelling.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Marketing Strategies Section end -->
+         <!-- Web Development Course Section Str -->
+             <section>
+              <div class="container py-5 my-5">
+                <div class="row m-auto">
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto">
+                    <div class="alingment-div">
+                        <h2 class="m-auto lh-sm heading pb-3" style="color: #2B3690;">
+                          Web Development Course
+                        </h2>
+                        <h2 class=" m-auto lh-base fw-bold py-3 sub-heading">
+                          About Website Development Course
+                        </h2>
+                        <p class=" m-auto lh-base para">
+                          As digital growth accelerates, mobile app development is a key 
+                          avenue for reaching a vast number of consumers. Smartphone users
+                          access the Internet daily, fueling a rise in app downloads to 300 
+                          billion and revenues to <span class="fw-bold">$83.5 billion</span>. Digitech Infra software house 
+                          in Pakistan offers advanced online and physical courses in <span class="fw-bold">Java/Kotlin,
+                          React Native, and Flutter</span> for aspiring mobile app developers. Don't miss
+                          this chance to boost your skills—apply now!
+                        </p>
+                        <button type="button" class="btn rounded-0 text-white fs-6 fw-bold mt-3 px-4" style="background-color: #2B3690;">Apply Now</button>
+
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto">
+                      <div class="text-center">
+                          <img src="./img/Web-development.png" alt="" class="img-fluid">
+                      </div>
+                  </div>
+                </div>
+              </div>
+             </section>
+             <!-- Web Development Course Section End -->
+            <!-- Flutter App Development Course Section Str -->
+             <section style="background-color: #F3F9FF;" class="py-4">
+              <div class="container py-5 my-5">
+                <div class="row m-auto">
+                     <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto order-prop2">
+                      <div class="text-center">
+                          <img src="./img/flutter.png" alt="" class="img-fluid w-100">
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto order-1">
+                    <div class="alingment-div">
+                        <h2 class="m-auto lh-sm heading pb-3" style="color: #2B3690;">
+                          Flutter App Development Course
+                        </h2>
+                        <h2 class=" m-auto lh-base fw-bold py-3 sub-heading">
+                          About Flutter App Development Course
+                        </h2>
+                        <p class=" m-auto lh-base para">
+                        As the world rapidly embraces digital transformation, mobile app
+                         development is key to reaching a vast consumer base. Smartphone
+                          users access the Internet daily, fueling app downloads projected 
+                          to hit <span class="fw-bold">300 billion</span>, with revenues soaring to <span class="fw-bold">$83.5 billion</span>. The
+                           surge in smartphone and tablet sales drives this expansion.
+                        </p>
+                        <p class=" m-auto lh-base para">
+                          Digitech Infra, a leading software house in Pakistan, offers advanced online and physical
+                          courses in Java/Kotlin, React Native, and Flutter. These courses equip aspiring developers
+                            with skills to create innovative mobile applications. Don’t miss this opportunity—enhance 
+                            your expertise and launch your career as a professional app developer today!
+                        </p>
+                        <button type="button" class="btn rounded-0 text-white fs-6 fw-bold mt-3 px-4" style="background-color: #2B3690;">Apply Now</button>
+
+                      </div>
+                  </div>
+                 
+                </div>
+              </div>
+             </section>
+             <!-- Flutter App Development Course Section End -->
+              <!-- Graphic Designing Advance Course Section Str -->
+             <section>
+              <div class="container py-5 my-5">
+                <div class="row m-auto">
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto">
+                    <div class="alingment-div">
+                        <h2 class="m-auto lh-sm heading pb-3" style="color: #2B3690;">
+                          Graphic Designing Advance Course
+                        </h2>
+                        <h2 class=" m-auto lh-base fw-bold py-3 sub-heading">
+                          About Graphic Desiging Course
+                        </h2>
+                        <p class=" m-auto lh-base para">
+                         Graphic design is a powerful tool for communicating ideas through visual creativity. It plays a crucial role in branding, marketing, and advertising. Learning <span class="fw-bold">advanced graphic design</span> equips you to create flyers, posters, logos, brochures, banners, business cards, product packaging, and more. With growing demand, graphic design offers <span class="fw-bold">promising career opportunities and competitive salaries</span>.
+                        Digitech Infra & Designers, a leading software and design company in Pakistan, provides expert-led courses in <span class="fw-bold">Adobe Photoshop, Illustrator, InDesign, and Figma</span>. Whether for business or career growth, mastering design skills is essential. Start your journey today and become a professional graphic designer!
+
+                        </p>
+                        <button type="button" class="btn rounded-0 text-white fs-6 fw-bold my-3 px-4" style="background-color: #2B3690;">Apply Now</button>
+
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto">
+                      <div class="text-center">
+                          <img src="./img/graphics.png" alt="" class="img-fluid">
+                      </div>
+                  </div>
+                </div>
+              </div>
+             </section>
+             <!-- Graphic Designing Advance Course Section End -->
+              <!-- Digital Marketing & SEO Course Section Str -->
+             <section style="background-color: #F3F9FF;" class="py-4">
+              <div class="container py-5 my-5">
+                <div class="row m-auto">
+                     <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto order-prop4">
+                      <div class="text-center">
+                          <img src="./img/digital-markiting.png" alt="" class="img-fluid">
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto order-prop3">
+                    <div class="alingment-div">
+                        <h2 class="m-auto lh-sm heading pb-3" style="color: #2B3690;">
+                          Digital Marketing & SEO Course
+                        </h2>
+                        <h2 class=" m-auto lh-base fw-bold py-3 sub-heading">
+                          About Advance SEO & Digital Marketing Course
+                        </h2>
+                        <p class=" m-auto lh-base para">
+                          Digital marketing is a high-income, in-demand skill like programming, with a bright future and strong career potential. It boosts business growth and opens doors to various job and entrepreneurial opportunities. By learning digital marketing, you enhance your creativity, communication, and professional value.
+                        </p>
+                        <p class=" m-auto lh-base para">
+                        Digitech Infra software house offers top-quality online and physical digital marketing courses. Don’t wait—start your journey to becoming a digital marketing expert today!
+                        </p>
+                        <button type="button" class="btn rounded-0 text-white fs-6 fw-bold mt-3 px-4" style="background-color: #2B3690;">Apply Now</button>
+
+                      </div>
+                  </div>
+                 
+                </div>
+              </div>
+             </section>
+             <!-- Digital Marketing & SEO Course Section End -->
+              <!-- Business Development Course Section Str -->
+             <section>
+              <div class="container py-5 my-5">
+                <div class="row m-auto">
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto">
+                    <div class="alingment-div">
+                        <h2 class="m-auto lh-sm heading pb-3" style="color: #2B3690;">
+                          Business Development Course
+                        </h2>
+                        <h2 class=" m-auto lh-base fw-bold py-3 sub-heading">
+                          About Business Development  Course
+                        </h2>
+                        <p class=" m-auto lh-base para">
+                          A Business Development Course equips professionals with skills
+                           to drive growth, build strategic partnerships, and expand market
+                            reach. It covers <span class="fw-bold">sales strategies, customer relationship management,
+                             market analysis, branding, negotiation, financial planning, and 
+                             networking</span>. Participants learn to identify opportunities, craft 
+                             business models, and implement scalable solutions. The course blends 
+                             <span class="fw-bold">theory with practical case studies</span>, preparing learners for <span class="fw-bold">corporate, 
+                             startup, or freelance</span> success. Whether aspiring to enter new markets
+                              or enhance existing operations, the program offers <span class="fw-bold">valuable insights 
+                              into sustainable business growth</span>. With expert guidance and interactive
+                               sessions, this course empowers individuals to develop and execute <span class="fw-bold">effective 
+                               business strategies</span> confidently.
+
+                        </p>
+                        <button type="button" class="btn rounded-0 text-white fs-6 fw-bold mt-3 px-4" style="background-color: #2B3690;">Apply Now</button>
+
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-12 px-4 m-auto">
+                      <div class="text-center">
+                          <img src="./img/business-development.png" alt="" class="img-fluid">
+                      </div>
+                  </div>
+                </div>
+              </div>
+             </section>
+             <!-- Business Development Course Section End -->
+              <!-- Testimoniyal start -->
+               <section>
+                <div class="container py-5 my-5">
+                  <div class="text-center">
+                        <h2 class="m-auto lh-sm heading " style="color: #2B3690;">
+                            Testimonials
+                          </h2>
+                        <video  controls class="w-100 mt-4">
+                        <source src="./img/Testimonial-video.mp4" type="video/mp4">
+                        <source src="./img/Testimonial-video.mp4" type="video/ogg">
+                      </video>
+                      <p class="text-start"><span class="fw-bold">Hashir Ali</span> Software Quality Assurance Trainee</p>
+                      <video  controls class="w-100 mt-4">
+                        <source src="./img/testi-2.mp4" type="video/mp4">
+                        <source src="./img/testi-2.mp4" type="video/ogg">
+                      </video>
+                      <p class="text-start"><span class="fw-bold">Mahnoor Asif</span> Web Developer Trainee</p>
+                      <video  controls class="w-100 mt-4">
+                        <source src="./img/testi-3.mp4" type="video/mp4">
+                        <source src="./img/testi-3.mp4" type="video/ogg">
+                      </video>
+                      <p class="text-start"><span class="fw-bold">Muhammad Riyan Sadiq</span> Mern Developer Trainee</p>
+                      <video  controls class="w-100 mt-4">
+                        <source src="./img/test-4.mp4" type="video/mp4">
+                        <source src="./img/test-4.mp4" type="video/ogg">
+                      </video>
+                      <p class="text-start"><span class="fw-bold">Akhtar Hameed</span> Frontend Developer Trainee</p>
+                        </div>
+                </div>
+               </section>
+               <!-- Testimoniyal end -->
+<!-- footer start -->
+<footer>
+    <div class="container-fluid footerback pt-md-5 pt-3 img-back">
+
+        <div class="container widthset">
+            <div class="footer-body pt-4">
+                <div class="row mt-md-5 mt-4 gap-3 text-md-start text-center">
+                    <div class="col-md-3 col-12 text-md-start text-center">
+                        <img src="https://digitechinfra.com/public/img/digitech-infra-footer.png" width="200" class="img-fluid" alt="">
+                        <p class="footer-para mt-md-3 mt-4">DIA is a company which empowers the organizations digitally
+                            while providing competitively priced digital solutions. </p>
+                        <a href="about" class="btn btn-orange" style="transition: background-color 0.3s;"
+                            onmouseover="this.style.backgroundColor='#181F44'"
+                            onmouseout="this.style.backgroundColor='';">About us</a>
+                    </div>
+                    <div class="col-md-2 col-12 text-md-start text-center">
+                        <h4 class="footerheading">Quick Links</h4>
+                        <div class="linecolor text-md-start text-center"></div>
+
+                        <ul class="ps-0 mt-md-3 mt-3">
+                            <li><a class="footerlinks" href="/">Home</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/about">About</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/careers">Careers</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-12 text-md-start text-center">
+                        <h4 class="footerheading">Services</h4>
+                        <div class="linecolor text-md-start text-center"></div>
+                        <ul class="ps-0 mt-md-3 mt-3">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/mobile-app">App Development</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/web-development">Web Development</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/digital-marketing">Digital Marketing</a>
+                            </li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/cloud-service">Cloud Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-12 text-md-start text-center">
+                        <h4 class="footerheading p-0">Other Services</h4>
+                        <div class="linecolor text-md-start text-center"></div>
+
+                        <ul class="ps-0 mt-md-3 mt-3">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/managed-hosting">Managed Hosting</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/devops">DevOps Service</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/client">Clients</a></li>
+                        </ul>
+                        <ul class="ps-0">
+                            <li><a class="footerlinks" href="https://www.digitechinfra.com/training">Training</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-12 d-block d-lg-block d-md-none">
+                        <h4 class="footerheading">Gallery</h4>
+                        <div class="linecolor"></div>
+
+                        <!--lightbox start-->
+
+                        <div class="row mt-3">
+                            <div class="col-md-8 mb-2 px-1">
+                                <img src="https://digitechinfra.com/public/img/big-video.png" onclick="openModal();currentSlide(1)"
+                                    class="img-fluid hover-shadow">
+                            </div>
+                            <div class="col-md-4 mb-2 px-1">
+                                <img src="https://digitechinfra.com/public/img/short-video.png" onclick="openModal();currentSlide(2)"
+                                    class="img-fluid hover-shadow">
+                            </div>
+                            <div class="col-md-4 mb-2 px-1">
+                                <img src="https://digitechinfra.com/public/img/F-img-1.png" onclick="openModal();currentSlide(3)"
+                                    class="img-fluid hover-shadow" width="90">
+                            </div>
+                            <div class="col-md-4 mb-2 px-1">
+                                <img src="https://digitechinfra.com/public/img/F-img-2.png" onclick="openModal();currentSlide(4)"
+                                    class="img-fluid hover-shadow" width="90">
+                            </div>
+                            <div class="col-md-4 mb-2 px-1">
+                                <img src="https://digitechinfra.com/public/img/F-img-3.png" onclick="openModal();currentSlide(4)"
+                                    class="img-fluid hover-shadow">
+                            </div>
+                        </div>
+
+                        <!-- The Modal/Lightbox -->
+                        <div id="myModal" class="modal">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modal-content">
+
+                                <div class="mySlides">
+                                    <!-- <div class="numbertext">1 / 5</div>-->
+                                    <video autoplay muted controls src="https://digitechinfra.com/public/img/dia_video.mp4"
+                                        style=" width:50%; "></video>
+                                </div>
+
+                                <div class="mySlides">
+                                    <!-- <div class="numbertext">2 / 5</div>-->
+                                    <video autoplay muted controls src="https://digitechinfra.com/public/img/capstone.mp4"
+                                        style=" width:40%; "></video>
+                                </div>
+
+                                <div class="mySlides">
+                                    <!-- <div class="numbertext">3 / 5</div>-->
+                                    <img src="https://digitechinfra.com/public/img/1.jpg" style=" width:50%; ">
+                                </div>
+
+                                <div class="mySlides">
+                                    <!--<div class="numbertext">4 / 5</div>-->
+                                    <img src="https://digitechinfra.com/public/img/2.jpg" style=" width:50%; ">
+                                </div>
+
+                                <div class="mySlides">
+                                    <!--<div class="numbertext">5 / 5</div>-->
+                                    <img src="https://digitechinfra.com/public/img/3.jpg" style=" width:50%; ">
+                                </div>
+
+                                <!-- Next/previous controls -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                <!-- Caption text
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>-->
+
+                                <!-- Thumbnail image controls    <div class="column">
+      <img class="demo" src="../public/img/F-img-1.png" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../public/img/F-img-2.png" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../public/img/F-img-3.png" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../public/img/F-img-1.png" onclick="currentSlide(4)" alt="Lights">
+    </div> -->
+
+                            </div>
+                        </div>
+
+
+
+
+                        <!--lightbox end -->
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                    <div class="greyline mt-md-4 mb-mb-5"></div>
+                    <p class="text-center end-text">© 2025 All Rights Reserved | Digitech Infra Private Limited</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- footer end -->
+
+<!-- jquery cdn for slick slider  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+ <!-- <script>
+  
+$('.responsive').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+ </script> -->
+
+ <script>
+  $('.responsive').slick({
+    dots: true,
+    infinite: true,          // Enable infinite loop
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 2,
+    autoplay: true,          // Enable auto move
+    autoplaySpeed: 2000,     // Time between slide changes in ms
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 2000
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 2000
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 2000
+        }
+      }
+    ]
+  });
+</script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/641c7eca4247f20fefe79b8d/1gs7kuiep';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+
+
+
+<!--lightbox script start-->
+
+<script>
+    // Open the Modal
+    function openModal() {
+        document.getElementById("myModal").style.display = "block";
+    }
+
+    // Close the Modal
+    function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+</script>
+
+<!--lightbox script end-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+
+<!--comment by ahmed-->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+</script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"94e07bd48c40aead","version":"2025.5.0","r":1,"token":"6d8535fb69734b3e88c5489cda5522c1","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+
+</html>
